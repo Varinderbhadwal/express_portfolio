@@ -1,0 +1,210 @@
+#about{
+    padding: 20px;
+    text-align: center;
+
+}
+
+#about h1{
+    text-align: center;
+    text-decoration: underline 5px solid blue;
+    text-underline-offset: 5px;
+    text-transform: uppercase;
+
+}
+
+#about p{
+    text-align: justify;
+    padding: 5%;
+}
+
+#dummysec1{
+    background-image: url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?q=80');
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#dummysec1 h1{
+    padding: 40px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top:150px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+#projects{
+    text-align: center;
+    padding: 20px;
+}
+
+#projects .card{
+    padding: 20px;
+    transition: 0.7s ease-in-out;
+}
+
+#projects .card:hover{
+    box-shadow: 0px 0px 10px 0px;
+}
+
+
+#projectshead{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: underline 5px blue;
+    text-underline-offset: 5px;
+}
+
+#resume{
+    border: 1px solid red;
+    transition: 0.7s ease-in-out;
+}
+
+
+#resume:hover{
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+}
+
+#contact{
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+/*==============About PAge Style====================*/
+#abouthero{
+    background-image: url('https://www.themarketingsage.com/wp-content/uploads/2015/08/about-me-leon-severan-we-buy-houses.jpg');
+    min-height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#aboutme{
+    text-align: center;
+    padding: 20px;
+}
+
+#aboutme h1{
+    text-transform: uppercase;
+    text-decoration: underline 5px solid blue;
+    text-underline-offset: 5px;
+}
+
+#aboutme p{
+    text-align: justify;
+}
+
+#myjourney{
+    text-align: center;
+    padding: 20px;
+}
+
+#myjourney h1{
+    text-transform: uppercase;
+    text-decoration: underline 5px solid blue;
+    text-underline-offset: 5px;
+}
+
+#myjourney p{
+    text-align: justify;
+}
+
+
+#whatido{
+    text-align: center;
+    padding: 20px;
+}
+
+#whatido h1{
+    text-transform: uppercase;
+    text-decoration: underline 5px solid blue;
+    text-underline-offset: 5px;
+}
+
+#whatido p{
+    text-align: justify;
+}
+
+#myskills{
+    text-align: center;
+    padding: 20px;
+}
+
+#myskills h1{
+    text-transform: uppercase;
+    text-decoration: underline 5px solid blue;
+    text-underline-offset: 5px;
+}
+
+#myskills p{
+    text-align: justify;
+}
+
+
+#MyPhilosophy{
+    text-align: center;
+    padding: 20px;
+}
+
+#MyPhilosophy h1{
+    text-transform: uppercase;
+    text-decoration: underline 5px solid blue;
+    text-underline-offset: 5px;
+}
+
+#MyPhilosophy p{
+    text-align: justify;
+}
+
+
+#LetConnect{
+    text-align: center;
+    padding: 20px;
+}
+
+#LetConnect h1{
+    text-transform: uppercase;
+    text-decoration: underline 5px solid blue;
+    text-underline-offset: 5px;
+}
+
+#LetConnect p{
+    text-align: justify;
+}
+
+/*=================Hire Me Page====================*/
+#contact, #connect{
+   text-align: center; 
+}
+
+#contact h1, #connect h1{
+    padding: 20px;
+    background-color: aqua;
+}
+
+#contact ul, #connect ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+#form{
+    padding: 20px;
+}
+
+#form input{
+    margin-top: 10px;
+}
